@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-from typing import Tuple
 """ module doc """
+from typing import Tuple
 
 
-def index_range(page: int, page_size: int) -> tuple:
-    start_index = (page - 1) * page_size
-    end_index = start_index + page_size
-    return start_index, end_index
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
+    """ function doc """
+    startPage = (page - 1) * page_size
+    endPage = page * page_size
+    return (startPage, endPage)
