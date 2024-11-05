@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from typing import Tuple
 """
 Given a list of items we want to break them down
 into pages, and number of items in that particular list
